@@ -1,0 +1,28 @@
+:root {
+    --nav: #5E548E;
+    --text: #231942;
+    --purple: #9F86C0;
+    --heading: #BE95C4;
+    --body: #E0B1CB;
+}
+
+.nav-color {
+    background-color: var(--nav);
+}
+
+.nav-color a {
+    color: var(--purple);
+}
+
+.nav-color .active,
+.nav-color a:hover {
+    color: var(--text);
+}
+
+body {
+    background-color: var(--body);
+}
+
+.nav-color td {
+    color: var(--heading);
+}
